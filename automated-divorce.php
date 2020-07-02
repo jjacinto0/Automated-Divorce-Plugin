@@ -120,9 +120,9 @@ register_deactivation_hook(__FILE__, array($automated_divorce, 'deactivate') );
 //uninstall
 
 
-/***********************
-****   SHORTCODE    ****
-************************/
+/*************************
+****   SHORTCODE    ******
+**************************/
 
 //general consultation form
 require_once plugin_dir_path(__FILE__) . 'class/class_logical_form.php';
